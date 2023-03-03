@@ -1,0 +1,6 @@
+function callOtherContract(address otherContract, uint256 amount) public {
+    (bool success, bytes memory data) = otherContract.call{value: amount}(
+        abi.encodeWithSignature("transfer(address,uint256)", msg.sender, amount)
+    );
+    require(success, "Failed to call other contract");
+}
