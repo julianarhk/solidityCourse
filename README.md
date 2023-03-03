@@ -1,4 +1,4 @@
-# **This is a Solidity Tutorial.** 📚👩‍💻
+# <p align="center"><b>This is a Solidity Tutorial. 📚👩‍💻 </b></p>
 ![solidity](https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black)
 
 This course is organized in pieces of code explaining the vast possibilities within the Solidity language. 
@@ -10,3 +10,4 @@ There is an explanation of the code in every file and you must read it for bette
 Please, test this code in your own editor and comment if there's any suggestion or improvement you'd like to point out. 
 
 Hope you enjoy learning Solidity as much as I am.
+
