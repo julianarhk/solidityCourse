@@ -9,5 +9,9 @@ There is an explanation of the code in every file and you must read it for bette
 
 Please, test this code in your own editor and comment if there's any suggestion or improvement you'd like to point out. 
 
-Hope you enjoy learning Solidity as much as I am.
+<b><i><font color="darkgreen">Hope you enjoy learning Solidity as much as I am.</font></i></b>
+
+
+
+
 
