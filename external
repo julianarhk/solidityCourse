@@ -1,0 +1,5 @@
+contract MyContract {
+    function myFunction() external {
+        // do something
+    }
+}
