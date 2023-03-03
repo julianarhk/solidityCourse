@@ -1,4 +1,5 @@
-# **This is a Solidity Tutorial.**
+# **This is a Solidity Tutorial.** 📚👩‍💻
+![solidity](https://img.shields.io/badge/Solidity-e6e6e6?style=for-the-badge&logo=solidity&logoColor=black)
 
 This course is organized in pieces of code explaining the vast possibilities within the Solidity language. 
 
