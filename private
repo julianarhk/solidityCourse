@@ -1,0 +1,7 @@
+contract MyContract {
+    uint256 private myVariable;
+
+    function setMyVariable(uint256 newValue) private {
+        myVariable = newValue;
+    }
+}
