@@ -3,7 +3,7 @@
 
 This course is organized in pieces of code explaining the vast possibilities within the Solidity language. 
 
-We are going to explore the basics of Solidity, such as how to start writing a Smart Contract, create basic and complex functions as well as compiling and deploying steps.
+We are going to explore the basics of Solidity, such as how to start writing a Smart Contract, create basic and complex functions and so on.
 
 There is an explanation of the code in every file and you must read it for better comprehension of the material.
 
