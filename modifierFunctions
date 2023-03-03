@@ -1,0 +1,15 @@
+pragma solidity ^0.8.0;
+
+contract MyContract {
+    address public owner;
+
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only the owner can call this function.");
+        _; // This represents the code of the function that the modifier is applied to.
+    }
+
+    function doSomething() public onlyOwner {
+        // Only the owner of the contract can call this function.
+        // The rest of the function code goes here.
+    }
+}
