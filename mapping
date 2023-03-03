@@ -1,0 +1,12 @@
+// Define a mapping to store a person's age based on their name
+mapping(string => uint256) public ages;
+
+// Function to set a person's age
+function setAge(string memory name, uint256 age) public {
+    ages[name] = age;
+}
+
+// Function to get a person's age
+function getAge(string memory name) public view returns (uint256) {
+    return ages[name];
+}
