@@ -1,0 +1,13 @@
+contract MyContract {
+    uint256 internal myVariable;
+
+    function setMyVariable(uint256 newValue) internal {
+        myVariable = newValue;
+    }
+}
+
+contract MyDerivedContract is MyContract {
+    function setMyDerivedVariable(uint256 newValue) public {
+        setMyVariable(newValue);
+    }
+}
