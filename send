@@ -1,0 +1,4 @@
+function sendEther(address payable recipient) public payable {
+    bool success = recipient.send(msg.value);
+    require(success, "Failed to send ether");
+}
