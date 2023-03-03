@@ -38,5 +38,3 @@ function operation(uint256 a, uint256 b, function (uint256, uint256) pure return
 }
 
 uint256 public result = operation(2, 3, add); // function types
-
-
